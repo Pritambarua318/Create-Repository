@@ -1,0 +1,31 @@
+ import java.util.*;
+ public class Main{
+     public static void main(String[] args){
+         Scanner num = new Scanner(System.in);
+         int a=num.nextInt();
+         int b=num.nextInt();
+         System.out.println("Select a number: ");
+         System.out.println("1.Add");
+         System.out.println("2.Subtract");
+         System.out.println("3.Multiply");
+         System.out.println("4.Divide");
+         int c=num.nextInt();
+         int d;
+         if(c==1){
+             d=a+b;
+         System.out.println("Sum = "+d);         
+         }
+         if(c==2){
+             d=a-b;
+             System.out.println("substract = "+d);
+         }
+         if(c==3){
+             d=a*b;
+             System.out.println("Multiply = "+d);
+         }
+         if(c==4){
+              d=a/b;
+             System.out.println("Divide = "+d);
+         }
+     }
+ }
